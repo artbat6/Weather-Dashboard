@@ -14,11 +14,13 @@
 
 #title {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   text-align: left;
 }
 h1 {
+  padding-top: 50px;
   font-family: "Montserrat", sans-serif;
   font-size: 46px;
   color: cadetblue;
+  text-align: center;
 }
