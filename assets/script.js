@@ -48,16 +48,27 @@ function getTodayWeatherData() {
             var futureTemp = response.list[dayIndex].main.temp;
             console.log(futureDateEl);
             console.log(futureTemp);
-            
-            var iconCode = response.list[0].weather.O.icon;
-            var iconURL = "http://openweathermap.org/img/w/" + iconCode + ".png";
-            
-            console.log iconCode;
-            // var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
+            console.log(response);
+            // var tempFills = document.getElementsByClassName("temp");
+            // tempFills.innerText = dayIndex;
+            var dateLabel = document.querySelector("#date" + i);
+            var tempLabel = document.querySelector("#temp" + i);
+            tempLabel.innerText = futureTemp;
+            dateLabel.innerText = futureDateEl;
+
+            var iconCode = response.list[dayIndex].weather[0].icon;
+            var imgEl = document.querySelector("#icon" + i);
+            imgEl.src = "http://openweathermap.org/img/w/" + iconCode + ".png";
+
+            console.log(iconCode);
+
+            // var iconURL = "http://openweathermap.org/img/w/" + iconCode + ".png";
+
+            // console.log iconCode;
             // console.log(response.list[0].main.temp);
             // console.log(response.list[0].dt_txt);
             //var iconURL = "http://openweathermap.org/img/w/" + iconCode + ".png";
-            console.log(response);
+            // console.log(response);
 
             // I have futureDateEl, futureTemp and iconURL for day0, day1, day2, day3, day4.
             // document.getElementById('date'+i) and set it to futureDateEl
