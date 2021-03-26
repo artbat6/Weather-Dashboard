@@ -23,38 +23,54 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a id="title" class="navbar-brand" href="#">Weather Information</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
+    
       </button>
-      <div class="collapse navbar-collapse location" id="navbarSupportedContent">
-        <form class="form-inline my-2 my-lg-0">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <input
             class="form-control mr-sm-2"
+            id="location"
             type="search"
-            placeholder="city and state code"
+            placeholder="city"
             aria-label="Search"
+            value=""
           />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <button onclick="getCity()" class="btn btn-outline-success my-2 my-sm-0">
             Search
           </button>
-        </form>
       </div>
     </nav>
-
-    <container id="mainContainer">
-      <div id="response-container">
-        <h1 id="h1temp"></h1>
-      </div>
-    </container>
-
-    <script src="./assets/script.js" async defer></script>
+    <div class="col-8" id="pageBox">
+        <div class="row">
+            <h4>Current:</h4>
+            <h2 id="currentCity"></h2>
+            <div class="card">
+                <!-- current weather card -->
+                <div class="card-body">
+                    <h1 id="h1temp"></h1>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <h4>5-Day Forecast:</h4>
+            </div>
+        <!-- five day card-->
+        <div id="weeklyForecast" class="row">
+            <div class="card day0">
+              <h1 id="date0"></h1>
+            <div class="icon">
+              <img src="">
+            </div>
+            <div class="temp0" >
+              <h3>Temp</h3>
+            </div> 
+          </div>
+        </div>
+          <!-- each card will have its own id day0, day1, day2, day3, day4 -->
+          <!-- id="day0" -->
+          <!-- id="date0" -->
+          <!-- id="temp0" -->
+        </div>
+    </div>
+ <script src="./assets/script.js" async defer></script>
   </body>
 </html>
