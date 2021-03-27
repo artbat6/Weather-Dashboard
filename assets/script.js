@@ -64,13 +64,13 @@ function getTodayWeatherData() {
       todayUvEl.textContent = "UV index: " + response.value;
 
       if (response.value <= 2) {
-        $("span").attr("class", "btn btn-outline-success");
+        $("span").attr("class", "btn btn-success disabled");
       }
       if (response.value > 2 && response.value <= 5) {
-        $("span").attr("class", "btn btn-outline-warning");
+        $("span").attr("class", "btn btn-warning disabled");
       }
       if (response.value > 5) {
-        $("span").attr("class", "btn btn-outline-danger");
+        $("span").attr("class", "btn btn-danger disabled");
       }
     });
   getFiveDayWeather();
