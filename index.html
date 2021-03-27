@@ -21,6 +21,7 @@
     />
   </head>
   <body>
+    <container id="mainContainer">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a id="title" class="navbar-brand" href="#">Weather Information</a>
     
@@ -41,72 +42,92 @@
     </nav>
     <div class="col-12" id="pageBox">
         <div class="row">
-            <h4>Current:</h4>
+            <h4 id="current">Current Weather: </h4>
             <h2 id="currentCity"></h2>
-            <div class="card">
+            <img id="iconToday"  src="">
+            <div class="cardBox">
                 <!-- current weather card -->
-                <div class="card-body">
+                <div">
                     <h1 id="h1temp"></h1>
                 </div>
+                <div id="humUvData" class="col4">
+                <h5 id="humidityToday">Humidity:</h5>
+            <h5 id="uvIndexToday">UV index:</h5>
+            <span>UV level</span>
+          </div>
             </div>
         </div>
             <div class="row">
-                <h4>5-Day Forecast:</h4>
+                <h4 id="fiveDay">5-Day Forecast:</h4>
             </div>
         <!-- five day card-->
         <div id="weeklyForecast" class="row">
             
-          <div class="card col-2 day0">
-              <h1 id="date0"></h1>
+          <div class="card-body col-2 day0">
+              <h3 id="date0"></h3>
             <div class="icon">
               <img id="icon0"  src="">
             </div>
-            <div class="temp">
-              <h3 id="temp0">Temp</h3>
+            <div class="tempNum" id="temp0">
+              <h3 class="temp">Temp</h3>
             </div> 
+            <h3 class="card-text hum" id="humidity0">humidity</h3>
+            <h3 class="card-text wind" id="wind0">wind</h3>
           </div>
           
-          <div class="card col-2 day1">
-            <h1 id="date1"></h1>
+          <div class="card-body col-2 day1">
+            <h3 id="date1"></h3>
           <div class="icon">
             <img id="icon1" src="">
           </div>
-          <div id="temp1">
+          <div class="tempNum" id="temp1">
             <h3 class="temp">Temp</h3>
           </div> 
+          <h3 class="card-text hum" id="humidity1">humidity</h3>
+          <h3 class="card-text wind" id="wind1">wind</h3>
+
         </div>
         
-        <div class="card col-2 day2">
-          <h1 id="date2"></h1>
+        <div class="card-body col-2 day2">
+          <h3 id="date2"></h3>
         <div class="icon">
           <img id="icon2"  src="">
         </div>
-        <div id="temp2">
+        <div class="tempNum" id="temp2">
           <h3 class="temp">Temp</h3>
         </div> 
+        <h3 class="card-text hum" id="humidity2">humidity</h3>
+        <h3 class="card-text wind" id="wind2">wind</h3>
+
       </div>
       
-      <div class="card col-2 day3">
-        <h1 id="date3"></h1>
+      <div class="card-body col-2 day3">
+        <h3 id="date3"></h3>
       <div class="icon">
         <img id="icon3" src="">
       </div>
-      <div id="temp3">
+      <div class="tempNum" id="temp3">
         <h3 class="temp">Temp</h3>
       </div> 
+      <h3 class="card-text hum" id="humidity3">humidity</h3>
+      <h3 class="card-text wind" id="wind3">wind</h3>
+
     </div>
     
-    <div class="card col-2 day4">
-      <h1 id="date4"></h1>
+    <div class="card-body col-2 day4">
+      <h3 id="date4"></h3>
     <div class="icon">
       <img id="icon4" src="">
     </div>
-    <div id="temp4">
+    <div class="tempNum" id="temp4">
       <h3 class="temp">Temp</h3>
-    </div> 
-  </div>
-        
     </div>
+    <h3 class="card-text hum" id="humidity4">humidity</h3>
+    <h3 class="card-text wind" id="wind4">wind</h3>
+
+   </div>
+  </div>
+</container>
  <script src="./assets/script.js" async defer></script>
   </body>
 </html>
