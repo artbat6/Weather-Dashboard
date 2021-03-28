@@ -109,7 +109,7 @@ function getTodayWeatherData() {
           var tempLabel = document.querySelector("#temp" + i);
           tempLabel.innerText = futureTemp + "º";
 
-          var windFiveEl = document.querySelector("#wind" + i)
+          var windFiveEl = document.querySelector("#wind" + i);
           windFiveEl.textContent = "Wind:" + futureWind + "mph";
 
           var iconCode = response.list[dayIndex].weather[0].icon;
