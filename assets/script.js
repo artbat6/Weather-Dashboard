@@ -1,6 +1,3 @@
-//in html create inputs for city (+ state)
-//inject variable into api fetch
-//have results populate the blank html container(s)
 var cityEl;
 var apiKey = "1fe79bd8dd8a82d706b58fa3e01f2279";
 
