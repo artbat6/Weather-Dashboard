@@ -30,7 +30,7 @@ function getTodayWeatherData() {
       var iconCodeToday = data.weather[0].icon;
       var imgElToday = document.querySelector("#iconToday");
       imgElToday.src =
-        "http://openweathermap.org/img/w/" + iconCodeToday + ".png";
+        "https://openweathermap.org/img/w/" + iconCodeToday + ".png";
       populateCityName(data);
 
       var humidityTodayEl = document.getElementById("humidityToday");
@@ -43,7 +43,7 @@ function getTodayWeatherData() {
       console.log(lon);
 
       return fetch(
-        "http://api.openweathermap.org/data/2.5/uvi?lat=" +
+        "https://api.openweathermap.org/data/2.5/uvi?lat=" +
           lat +
           "&lon=" +
           lon +
