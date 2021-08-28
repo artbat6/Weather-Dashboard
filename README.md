@@ -4,6 +4,8 @@ This is a simple weather dashboard.  It tells conditions for the current day as 
 
 ## Installation
 
+https://artbat6.github.io/Weather-Dashboard/
+
 To check the weather simple ender your city name and click submit.
 
 ### Author
