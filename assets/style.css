@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("weather.svg");
+  background-size:400vh;
+
+  
+  font-family: helvetica, ariel, sans-serif;
+}
+
 #h1temp {
   color: rgb(46, 122, 72);
 }
