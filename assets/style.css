@@ -16,6 +16,11 @@ body {
 
 #h1temp {
   color: rgb(0, 0, 0);
+  background-color: rgb(254, 228, 237);
+  align-items: center;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
 }
 
 #title {
@@ -50,9 +55,16 @@ body {
 .wind {
   font-size: 14px;
 }
+.row {
+  justify-content: flex-start;
+}
 
 #humUvData {
-  margin-left: 30px;
+  background-color: rgb(254, 228, 237);
+  align-items: center;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
 }
 
 .hum {
@@ -70,10 +82,10 @@ body {
   
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .card {
   border: dotted;
@@ -88,11 +100,12 @@ img {
   padding: 10px;
 }
 #currentCity {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 img {
-  width: 80px;
+  width: 120px;
+  height: auto;
 }
 #current {
   background-color: rgb(254, 228, 237);
@@ -118,3 +131,4 @@ justify-content: center;
   background-color: rgb(254, 228, 237;
 }
 
+  
