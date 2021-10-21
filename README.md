@@ -12,4 +12,4 @@ To check the weather simple ender your city name and click submit.
 
 Arthur Bates
 
-![myWeatherDashboard](./assets/weatherScreen.png)
+![myWeatherDashboard](./assets/weatherUpdate.png)
