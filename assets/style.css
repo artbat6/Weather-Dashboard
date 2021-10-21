@@ -7,7 +7,7 @@
 body {
   background-image: url("weather.svg");
   background-size:400vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 .navbar {
@@ -122,10 +122,11 @@ justify-content: center;
 
 #fiveDay {
   text-align: center;
-  width: 50%;
+  border-radius: 15px;
+  width: 30%;
   /* margin-left: 42px; */
   font-size: 44px;
-  background-color: rgb(254, 228, 237;
+  background-color: rgb(254, 228, 237);
 }
 
   
