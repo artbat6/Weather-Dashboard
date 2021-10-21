@@ -24,7 +24,7 @@ body {
 }
 
 #title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 24px;
   text-align: left;
   color:rgba(67, 67, 67, 0.77);
@@ -94,9 +94,6 @@ body {
   justify-content: space-around;
   background-color: rgb(254, 228, 237);
   padding: 10px;
-}
-#currentCity {
-  /* margin-left: 20px; */
 }
 
 img {
