@@ -15,10 +15,9 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chango&family=Lato:wght@300&family=Montserrat:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
     <container id="mainContainer">
@@ -28,14 +27,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <input
-            class="form-control mr-sm-2"
+            class="form-control"
             id="location"
             type="search"
             placeholder="city"
             aria-label="Search"
             value=""
           />
-          <button onclick="getCity()" class="btn btn-outline-success my-2 my-sm-0">
+          <button onclick="getCity()" class="btn btn-primary my-2 my-sm-0">
             Search
           </button>
       </div>

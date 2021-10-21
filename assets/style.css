@@ -7,7 +7,7 @@
 body {
   background-image: url("weather.svg");
   background-size:400vh;
-  font-family: helvetica, ariel, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -18,10 +18,15 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.navbar {
+  width: 100%;
+}
+
 #title {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   text-align: left;
+  color:rgba(242, 60, 169, 0.77)
 }
 .card-body {
   border:solid;
