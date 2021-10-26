@@ -138,41 +138,14 @@ justify-content: center;
       align-items: center;
     }
 
-    #icon0 {
+    .iconSize {
       width: 70px;
     }
 
-    #icon1 {
-      width: 70px;
-    }
-
-    #icon2 {
-      width: 70px;
-    }
-    #icon3 {
-      width: 70px;
-    }
-
-    #icon4 {
-      width: 70px;
-    }
-
-    #date0 {
+    .date {
         font-size: 18px;
     }
-    #date1 {
-      font-size: 18px;
-    }
-    #date2 {
-    font-size: 18px;
-    }
-    #date3 {
-    font-size: 18px;
-    }
-    #date4 {
-    font-size: 18px;
-    }
-
+    
     .card-body {
       display: flex;
       justify-content: center;
