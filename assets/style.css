@@ -83,10 +83,10 @@ body {
   
 }
 
-.card {
+/* .card {
   border: dotted;
   color: rgb(35, 129, 82);
-}
+} */
 
 #weeklyForecast {
   border-radius: 10px;
@@ -127,4 +127,62 @@ justify-content: center;
   color:rgba(67, 67, 67, 0.77);
 }
 
-  
+@media only screen and (max-width: 700px) {
+
+    #fiveDay {
+      font-size: 20px;
+    }
+
+    .card-body {
+      justify-content: center;
+      align-items: center;
+    }
+
+    #icon0 {
+      width: 70px;
+    }
+
+    #icon1 {
+      width: 70px;
+    }
+
+    #icon2 {
+      width: 70px;
+    }
+    #icon3 {
+      width: 70px;
+    }
+
+    #icon4 {
+      width: 70px;
+    }
+
+    #date0 {
+        font-size: 18px;
+    }
+    #date1 {
+      font-size: 18px;
+    }
+    #date2 {
+    font-size: 18px;
+    }
+    #date3 {
+    font-size: 18px;
+    }
+    #date4 {
+    font-size: 18px;
+    }
+
+    .card-body {
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      flex-direction: column;
+    }
+
+    .hum {
+      font-size: 10px;
+    }
+
+
+}
